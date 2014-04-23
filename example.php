@@ -2,9 +2,15 @@
 
 // example CLIWrapper with PDO Modules
 
-require_once('PHPCLiWrapper.php');
-require_once('PDO/PDOCLiWrapper.php');
+require_once('lib/CliWrapper/Cli.php');
+require_once('lib/CliWrapper/CliCommand.php');
+require_once('lib/CliWrapper/CliHelper.php');
 
+require_once('lib/CliWrapper/Pdo/PdoCliCommand.php');
+require_once('lib/CliWrapper/Pdo/ListCommand.php');
+require_once('lib/CliWrapper/Pdo/ShowCommand.php');
+require_once('lib/CliWrapper/Pdo/SetCommand.php');
+require_once('lib/CliWrapper/Pdo/CdCommand.php');
 // Configuration 
 
 $user = "";

@@ -66,5 +66,3 @@ namespace CliWrapper\Pdo
 
   }
 }
-?>
-

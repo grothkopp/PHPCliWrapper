@@ -4,6 +4,9 @@ PHPCLIWrapper is a small framework that helps you build commandline tools in PHP
 With the included PDO commands you can use PHPCLIWrapper as a PDO commandline interface.<br>
 You can also write your own commands and use this library for whatever purpose you like.
 
+## Demo
+<img src="screencast.gif">
+
 ## Usage
 1. You can load and run PHPCLiWrapper like this:
 ```

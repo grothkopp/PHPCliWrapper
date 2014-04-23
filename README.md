@@ -35,7 +35,7 @@ Add these lines to your composer.json
 ```
 
 ## License
-PHPCLIWrappe
+PHPCLIWrapper
 Copyright (c) 2014, Stefan Grothkopp, All rights reserved.
 
 This library is free software; you can redistribute it and/or

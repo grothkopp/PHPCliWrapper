@@ -9,7 +9,6 @@ namespace CliWrapper {
     private $path      = [];   // virtual path describing the query
     private $history   = [];   // command history
     private $marks     = [];   // bookmarks
-    private $tables    = [];   // tables
     private $commands  = ["cd","exit","history","mark","unmark","go"];
     private $cmdobj    = [];   // Command Objects 
     private $status = 0;       // command status

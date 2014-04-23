@@ -77,7 +77,6 @@ namespace CliWrapper {
     }
 
     function callback_complete($input, $index) {
-      //    $cmp1 = $this->commands;
 
       $buffer= "";
       $buffer = substr(readline_info()["line_buffer"],0,readline_info()['end']);
@@ -100,16 +99,8 @@ namespace CliWrapper {
         $cmp = $this->{"complete_".$c}($cmds);
 
       if(!is_array($cmp)) $cmp = [];
-      /*
-         case ($this->c>0 && $this->c <300 && ($c == "show" || $buffer == ""|| $this->isInteger($buffer))):
-         $results = $this->q->execute();
-
-         foreach($results as $r){
-         array_push($cmp,$r->getId());
-         }
-       */
-      if(count($cmp) == 0)
-        $cmp1 = $this->commands;
+      
+      if(count($cmp) == 0) $cmp1 = $this->commands;
 
       $cmp = array_merge($cmp1,$cmp);
 
@@ -155,7 +146,6 @@ namespace CliWrapper {
 
         foreach($this->marks as $name=>$mark){
           $marks[] = ['name' => $name.":",
-            //                    'count' => "[".$this->count($mark['path'])."]",
             'path' => implode(" / ",$mark['path'])];
         }
         CliHelper::prettyPrint($marks,' ');

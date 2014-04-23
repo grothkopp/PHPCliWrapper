@@ -131,14 +131,13 @@ function command(&$path,$cmds){
       $id = $cmds[1];
 
       if(count($path)>0){$class = $path[0];}
-      else break;
+      else return;
     }
 
     if(count($cmds) == 1) {
-     // if($this->c != 1) break;
 
       if(count($path)>0){$class = $path[0];}
-      else break;
+      else return;
 
     }
 

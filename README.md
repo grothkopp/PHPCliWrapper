@@ -1,7 +1,7 @@
-# PHPCLIWrapper
+# PHPCliWrapper
 ## About
-PHPCLIWrapper is a small framework that helps you build commandline tools in PHP.<br>
-With the included PDO commands you can use PHPCLIWrapper as a PDO commandline interface.<br>
+PHPCliWrapper is a small framework that helps you build commandline tools in PHP.<br>
+With the included PDO commands you can use PHPCliWrapper as a PDO commandline interface.<br>
 You can also write your own commands and use this library for whatever purpose you like.
 
 ## Demo
@@ -22,7 +22,7 @@ $cli->run();
 
 ## Installing 
 
-You can install PHPCLIWrapper with Composer.
+You can install PHPCliWrapper with Composer.
 Add these lines to your composer.json
 
 ```
@@ -38,20 +38,18 @@ Add these lines to your composer.json
 ```
 
 ## License
-PHPCLIWrapper
-Copyright (c) 2014, Stefan Grothkopp, All rights reserved.
-
+PHPCliWrapper<br>
+Copyright (c) 2014, Stefan Grothkopp, All rights reserved.<br>
+<br>
 This library is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
 License as published by the Free Software Foundation; either
-version 3.0 of the License, or (at your option) any later version.
-
+version 3.0 of the License, or (at your option) any later version.<br>
+<br>
 This library is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-Lesser General Public License for more details.
-
+Lesser General Public License for more details.<br>
+<br>
 You should have received a copy of the GNU Lesser General Public
 License along with this library.
-
-

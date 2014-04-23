@@ -1,7 +1,8 @@
 { 
   "name": "grothkopp/PHPCliWrapper", 
   "require": { 
-    "php": ">=5.4.0"
+    "php": ">=5.4.0",
+    "ext-readline": "*"
   },
   "autoload": { 
     "psr-0": {

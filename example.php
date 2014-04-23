@@ -21,7 +21,7 @@ $db = "db";
 // --------------
 
 try {
-  $connection = new PDO('mysql:host=i$host;dbname=$db', $user, $pass);
+  $connection = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
 
   // the CLIWrapper 
   $cli = new CliWrapper\Cli();

@@ -54,8 +54,12 @@ namespace CliWrapper {
           $color1 = "\033[31m";
         else
           $color1 = "\033[37m";
+      
+      $prompt = $color1."[$c]\033[0m $path \033[037m$sep\033[0m ";
+      echo $prompt;
+      $prompt = "";
 
-      readline_callback_handler_install("$color1"."[$c]\033[0m $path \033[037m$sep\033[0m ", array($this,'rl_callback'));
+      readline_callback_handler_install("$prompt", array($this,'rl_callback'));
     }
 
     function rl_callback($ret)

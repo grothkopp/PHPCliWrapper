@@ -9,7 +9,7 @@ namespace CliWrapper\Pdo
       $results = $this->con->query($this->buildQuery("SELECT * ",$path));
 
       array_shift($cmds);
-      if(count($path >0)){
+      if(count($path) > 0){
 
         $keys = $cmds;
         if(count($keys) == 0) $keys = array_slice($this->colums[$path[0]],0,5); 

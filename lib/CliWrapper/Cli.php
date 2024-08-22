@@ -45,7 +45,7 @@ namespace CliWrapper {
 
     function install_handler(){
       // build prompt
-      $path = implode($this->path,"\033[37m / \033[0m");
+      $path = implode("\033[37m / \033[0m",$this->path);
       $c = $this->status;
       if($c == 1) { $color1 = "\033[32m"; $sep = "#"; }
       else        { $color1 = "\033[33m"; $sep = ">"; }
